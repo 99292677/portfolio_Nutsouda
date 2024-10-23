@@ -1,0 +1,39 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.hero {
+  background: linear-gradient(to right, #6a82fb, #fc5c7d);
+  color: white;
+  padding: 100px 0;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.card {
+  border: none;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+}
+
+.list-group-item {
+  background-color: #e9ecef;
+}
+
+/* ปรับให้รูปภาพโปรไฟล์เป็นวงกลม 100% */
+.hero img {
+  width: 200px; /* ขนาดที่ต้องการ */
+  height: 200px; /* ขนาดที่ต้องการ */
+  object-fit: cover; /* ตัดรูปให้พอดีกับกรอบ */
+  border-radius: 50%; /* ทำให้เป็นรูปวงกลม */
+}
